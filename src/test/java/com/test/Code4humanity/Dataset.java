@@ -66,7 +66,7 @@ public class Dataset {
 
 	DesiredCapabilities dc = DesiredCapabilities.chrome();
 
-	URL url = new URL("http://172.12.20.99:4444/wd/hub");
+	URL url = new URL("http://172.20.23.92:4444/wd/hub");
 
 	driver = new RemoteWebDriver(url, dc);
 
@@ -162,7 +162,7 @@ public class Dataset {
 
 	if (emailInput != null && emailInput.isDisplayed()) {
 
-	emailInput.sendKeys("softwareteam45");
+	emailInput.sendKeys("teamsoftware457");
 
 	System.out.println("Email was entered successfully.");
 
